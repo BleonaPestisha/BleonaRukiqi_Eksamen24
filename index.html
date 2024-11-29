@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forside</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <a href="#main-content" class="skip-link">Hopp til innhold</a>
+
+        <header>
+            <nav aria-label="Hovedmeny">
+                <div class="logo" aria-label="Nettbutikkens logo">Logo</div>
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="product.html">Produkter</a></li>
+                    <li><a href="checkout.html">Handlekurv</a></li>
+                    <li><a href="#kontakt">Kontakt oss</a></li>
+                </ul>
+                <div class="icons">
+                    <span role="button" aria-label="Søk">🔍</span>
+                    <span role="button" aria-label="Handlekurv">🛒</span>
+                </div>
+            </nav>
+        </header>
+
+        <main id="main-content">
+            <section id="banner" aria-labelledby="banner-heading">
+                <h2 id="banner-heading">Oppdag vår kolleksjon</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#produkter" class="button" aria-label="Se våre produkter">Se våre produkter</a>
+            </section>
+
+            <section aria-labelledby="popular-products">
+                <h2 id="popular-products">Våre mest populære produkter</h2>
+                <p>Vi har valgt ut de beste for deg!</p>
+                <div class="produkt-grid" role="list">
+                    <div class="produktkort" role="listitem">
+                        <img src="https://picsum.photos/200" alt="Eksempelbilde av produkt 1">
+                        <p>Produktnavn</p>
+                        <p>Pris: 199,-</p>
+                    </div>
+                    <div class="produktkort" role="listitem">
+                        <img src="https://picsum.photos/200" alt="Eksempelbilde av produkt 2">
+                        <p>Produktnavn</p>
+                        <p>Pris: 299,-</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="kategorier" aria-labelledby="category-heading">
+                <h2 id="category-heading">Våre mest populære kategorier</h2>
+                <div class="kategorier-grid" role="list">
+                    <div class="kategori" role="listitem">Kategori 1</div>
+                    <div class="kategori" role="listitem">Kategori 2</div>
+                    <div class="kategori" role="listitem">Kategori 3</div>
+                </div>
+            </section>
+
+            <section id="anmeldelser" aria-labelledby="reviews-heading">
+                <h2 id="reviews-heading">Anmeldelser</h2>
+                <div class="anmeldelser-list" role="list">
+                    <div class="anmeldelse" role="listitem">
+                        <img src="https://picsum.photos/100" alt="Bilde av bruker som gir anmeldelse">
+                        <p>Fantastisk produkt!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-section" id="kontakt">
+                <h3>Kontakt oss</h3>
+                <p>Adresse: Sofiesvei 123, 0000 Oslo</p>
+                <p>E-post: <a href=mailto:kontakt@nettbutikk.no">kontakt@nettbutikk.no</a></p>
+            </div>
+            <div class="footer-section">
+                <h2>Følg oss på sosiale medier</h2>
+                <ul>
+                    <li><a href="https://www.instagram.com" target="_blank" aria-label="Instagram-profil">Instagram</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank" aria-label="Facebook-profil">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn-profil">LinkedIn</a></li>
+                    <li><a href="https://www.pinterest.com" target="_blank" aria-label="Pinterest-profil">Pinterest</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

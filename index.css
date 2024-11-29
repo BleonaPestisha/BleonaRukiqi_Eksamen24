@@ -1,0 +1,174 @@
+Index css
+
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+li {
+    margin-right: 20px; 
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+</style>
+
+body {
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #55899a;
+    color: #fff;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}   
+
+header .logo {
+    font-size: 1.5em;
+    margin-left: 1em;
+    font-weight: bold; 
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1em;
+}   
+
+header ul li a{
+    display: flex;
+    gab: 20px;
+}
+
+header ul li a{
+    color: #fff;
+}
+
+header .icon span{
+    margin-left: 1rem;
+}
+
+#banner {
+    background-color: #8fc0d5;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+#banner .button {
+    display: inline-block;
+    background-color: #55899a;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+    front-weight: bold;
+}
+
+.produkter-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.prokduktkort {
+    background-color: #f4f4f4;
+    padding: 1em;
+    border: 1px solid #ccc;
+    text-align: center;
+}   
+
+.kategorier-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.kategori {
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.anmeldelse-liste {
+    display: flex;
+    flex-direction: column;
+    gab: 1.5rem;
+}
+
+.anmeldelse {
+    display: flex;
+    align-items: center;
+    gab: 1.5rem;
+}
+
+.anmeldelse img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #8fc0d5;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+footer .footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 1rem;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    main {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+.similar-products .produkter-cars {
+    flex-direction: row;
+    }   
+}

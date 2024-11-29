@@ -1,0 +1,146 @@
+Produckt css
+
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    line-height: 1.6;
+    color: #000;
+}
+
+header {
+    background-color: #55899a;
+    color: #fff;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    font-size: 1.8rem
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+header .icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.breadcrumb {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+    display: flex;
+    gab: 0.5rem;
+    align-items: center;
+}
+
+.breadcrumb a {
+    color: #000;
+    text-decoration: none;
+}
+
+.product-section {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.product-section img {
+    width: 100%;
+    max-width: 300px
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.product-details {
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+.product-details h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.product-details p {
+    margin-bottom: 1rem;
+}
+
+.product-details .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333
+    margin-bottom: 1rem;
+}
+
+.similar-products {
+    margin-top: 2rem;
+}
+
+.similar-products h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.similar-products .product-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.similar-products img {
+    width: 150px;
+    height: auto;
+    object-fit: cover
+    margin-right: 1rem;
+}
+
+.similar-products .product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.similar-products .product-info p {
+    margin: 0;
+}
+
+footer {
+    background-color: #8fc0d5;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+
+footer .footer-section {
+    display: flex;
+    mar
+

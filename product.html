@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produktside</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Hopp til innhold</a>
+
+    <header>
+        <nav aria-label="Hovedmeny">
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="product.html">Produkter</a></li>
+                <li><a href="checkout.html">Handlekurv</a></li>
+                <li><a href="#kontakt">Kontakt oss</a></li>
+            </ul>
+        </nav>
+        <h1>Produktside</h1>
+    </header>
+
+    <main id="main-content">
+        <nav aria-label="Brødsmulesti">
+            <p>
+                <a href="index.html" aria-label="Gå til Hjem">Hjem</a>
+                <span aria-hidden="true"> &gt; </span>
+                <a href="#produkter" aria-label="Gå til Produkter">Produkter</a>
+                <span aria-hidden="true"> &gt; </span>
+                <span aria-current="page">Produkt</span>
+            </p>
+        </nav>
+
+        <section aria-labelledby="product-section">
+            <h2 id="product-section">Produktinformasjon</h2>
+            <img src="https://picsum.photos/400" alt="Produktbilde av produktnavn">
+            <h3>Produktnavn</h3>
+            <p class="price">Pris: 499,-</p>
+        </section>
+
+       
+        <aside aria-labelledby="related-products">
+            <h2 id="related-products">Relaterte produkter</h2>
+            <div class="produktkort" role="list">
+                <div class="produkt" role="listitem">
+                    <img src="https://picsum.photos/200" alt="Bilde av relatert produkt 1">
+                    <p>Produkt 1</p>
+                    <p>Pris: 299,-</p>
+                </div>
+            
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div id="kontakt">
+            <p>&copy; 2024 Nettbutikk</p>
+            <p>
+                Kontakt oss: <a href="mailto:kontakt@nettbutikk.no">kontakt@nettbutikk.no</a>
+            </p>
+            <p>Telefon: 48425532</p>
+        </div>
+    </footer>
+</body>
+</html>
