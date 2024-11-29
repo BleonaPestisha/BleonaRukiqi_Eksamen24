@@ -1,0 +1,2 @@
+# BleonaRukiqi_Eksamen24
+Eksamen____2024
